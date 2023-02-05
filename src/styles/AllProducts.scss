@@ -1,0 +1,21 @@
+table {
+  thead {
+    color: #fff;
+  }
+  tbody {
+    tr {
+      td {
+        color: #fff;
+
+        img {
+          width: 80px !important;
+          height: 80px !important;
+        }
+        i {
+          color: red;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

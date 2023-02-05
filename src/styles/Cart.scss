@@ -1,0 +1,47 @@
+.cart {
+  table {
+    thead {
+      color: #fff;
+    }
+    tbody {
+      tr {
+        td {
+          color: #fff;
+          .product__quantity {
+            .quantity-btn {
+              background-color: black;
+              width: 30px;
+            }
+          }
+
+          img {
+            width: 80px !important;
+            height: 80px !important;
+          }
+          i {
+            color: red;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+// @media screen and (max-width: 767px) {
+//   table {
+//     font-size: 0.7rem;
+//     thead {
+//       color: #fff;
+//     }
+//     tbody {
+//       tr {
+//         td {
+//           img {
+//             width: 20px !important;
+//             height: 20px !important;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

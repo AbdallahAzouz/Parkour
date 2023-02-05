@@ -1,0 +1,47 @@
+.auth {
+  //   padding: 10rem;
+  //   padding-top: 7rem;
+  height: 100%;
+  background: url("https://toppng.com/uploads/preview/parkour-silhouette-jump-sky-clouds-fence-11570152013ud3zf0pvb4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h3 {
+    margin: 1rem;
+  }
+  .auth__form {
+    background: rgba(51, 51, 51, 0.24);
+    border-radius: 5px;
+    padding: 2.2rem;
+    .form__group {
+      padding: 2%;
+      input {
+        background-color: transparent;
+        width: 100%;
+        padding: 0.1rem 1rem;
+        border: 1px solid white;
+        outline: none;
+        font-size: 1.1rem;
+        font-weight: 600;
+        border-radius: 3px;
+        color: rgb(22, 21, 21);
+      }
+      input[type="file"] {
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+    button {
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: #fff;
+    }
+    a {
+      text-decoration: underline;
+    }
+  }
+}

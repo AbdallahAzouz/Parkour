@@ -1,0 +1,45 @@
+.about {
+  .about__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    .about__image {
+      flex: 1;
+      img {
+        width: 100%;
+        padding: 2rem;
+      }
+    }
+    .about__details {
+      display: flex;
+      flex: 2;
+      flex-direction: column;
+      gap: 0.3rem;
+      .categories {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-top: 2rem;
+        .box {
+          flex: 1 1 20rem;
+        }
+      }
+      button {
+        width: 20%;
+        padding: 0.3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__content {
+    flex-direction: column;
+    .about__details {
+      button {
+        width: 10rem !important;
+      }
+    }
+  }
+}

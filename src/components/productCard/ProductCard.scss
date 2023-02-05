@@ -1,0 +1,16 @@
+.product__item {
+  cursor: pointer;
+  .product__name {
+    color: var(--small-text-color);
+  }
+  .price {
+    font-weight: 700;
+    color: var(--small-text-color);
+  }
+  span i {
+    background-color: var(--small-text-color);
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+  }
+}
